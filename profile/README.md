@@ -5,6 +5,7 @@ Linguly is a language learning platform to serve different methods of language l
 ## Why?
 
 *What is the problem we want to solve here?*
+
 With the rapid improvement in language models and AI, a lot of language learning possibilities have been unlocked.
 We believe that the way we were traditionally learning language has been changed and new methods can be improved in different ways.
 Still finding an optimum tool to be best language learning companion is not easy and it might be different for each individual.
@@ -25,16 +26,16 @@ Based on these three flexibility idea, we have defined the initial architecture 
 
 ### Linguly Core
 
-Linguly Core is the central place to shape the platform. It contains the Agents which are configurable using YAML files.
-Agents' capabilities are limited to each type's definition which can be extended by each contributor.  
+[Linguly Core](https://github.com/Linguly/linguly-core) is the central place to shape the platform. It contains the [Agents](https://github.com/Linguly#agents) which are configurable using YAML files.
+Agents' capabilities are limited to the definition of each type which can be extended by the [contributors](https://github.com/Linguly#how-to-contribute).  
 
 ### Agents
 
 Agents are our language learning methodology logic. In each Agent we can define:
 
- - which interfaces can be connected
- - which models to be used
- - what data to store and what to read from the shared context
+ - which [interfaces](https://github.com/Linguly#interfaces) can be connected
+ - which [models](https://github.com/Linguly#models) to be used
+ - what data to store and what to read from the [shared context](https://github.com/Linguly#shared-context)
  - how to interact with the user
 
 We can define and extend Agent's type and categories by developing them.
@@ -51,6 +52,11 @@ Not all interfaces will be able to serve all Agents' capabilities and vice versa
 - showing the list of available Agents for the interface
 - switch between interfaces
 - link to this page to get to know other interfaces and options :)
+
+#### Current Interfaces
+
+- [Telegram Interface](https://github.com/Linguly/telegram-interface)
+   - No live instance yet
 
 ### Models
 
@@ -94,7 +100,7 @@ If you want to host private instance to own your data you can follow the instruc
 
 Linguly is an open-source project so it requires passionate people who share same goal. We want to work together to build a solution that will benefit the society and people to be empowered and learn languages efficiently.
 
-There would be a core team of main contributors to plan the project and manage its daily requirements. However, it is open to everybody to contribute and help us grow together.
+There would be a core team of main contributors to plan the project and manage its daily requirements. However, it is open to everyone to [contribute](https://github.com/Linguly#how-to-contribute) and help us grow together.
 
 ### University Alliances
 
@@ -104,7 +110,7 @@ This project has designed in a way to be suitable for variety of academic projec
 
 If you wish for a feature or change, have same passion and want to help, or just want to learn and try something, feel free to:
 
-- contact us
+- [contact us](https://github.com/Linguly#contact-us)
 - create a new issue
 - pick an issue and start working on it
 
@@ -117,3 +123,8 @@ So if you want to support us:
 - use it and give us feedback
 - share your experience in social media
 - contribute in the development!
+
+## Contact Us
+
+- Send an email to: linguly.contact@gamil.com
+- Start a [discussion](https://github.com/orgs/Linguly/discussions) 
