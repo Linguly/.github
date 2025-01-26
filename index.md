@@ -1,5 +1,9 @@
 # Welcome to Linguly Docs
 
-## More Information
+## Pages
 For detailed information, check the following sections:
-- [Introduction](./profile/README.md)
+- [Introduction](./_pages/intro.md)
+
+## Posts
+To see our posts, check the following links:
+- [Welcome](./_posts/2025-01-26-welcome-to-docs.md)
