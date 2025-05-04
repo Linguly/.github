@@ -1,7 +1,7 @@
-```markdown
 ---
+layout: post
 title: "Welcome to Linguly Docs!"
-date: 2025-01-26
+date: 2025-01-26 15:01:21 +0140
 ---
 
 # Welcome to Linguly Docs!

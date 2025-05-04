@@ -1,9 +1,6 @@
-# Welcome to Linguly Docs
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-## Pages
-For detailed information, check the following sections:
-- [Introduction](./_pages/intro.md)
-
-## Posts
-To see our posts, check the following links:
-- [Welcome](./_posts/2025-01-26-welcome-to-docs.md)
+layout: home
+---
