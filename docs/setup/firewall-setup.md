@@ -1,3 +1,8 @@
+---
+layout: default
+permalink: /docs/setup/firewall-setup/
+---
+
 # Firewall Setup
 ## Configure Firewall Rules
 
