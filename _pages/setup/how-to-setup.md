@@ -36,4 +36,6 @@ Follow the quick installation from Coolify to install it in your server:
 
 ## 3- Setup an LLM Model
 
-...
+In order to setup LLAMA models you can follow the steps [here](setup-ollama.md) to use ollama APIs.
+
+Otherwise if you have an API, you can setup in the linguly environment variables.
