@@ -17,13 +17,25 @@ title: Linguly Docs
 email: linguly.contact@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Linguly, an open source language learning platform
-baseurl: "/.github" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://linguly.github.io/.github" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  linguly
 
 # Build settings
 markdown: kramdown
 theme: minima
+header_pages:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/profile/README.md"
+  - title: "Setup"
+    url: "/docs/setup"
+    children:
+      - title: "firwall setup"
+        url: "/docs/setup/firewall-setup/"
+      - title: "How to setup"
+        url: "/docs/setup/firewall-setup/"
 plugins:
   - jekyll-feed
 
