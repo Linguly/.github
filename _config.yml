@@ -24,6 +24,13 @@ github_username:  linguly
 # Build settings
 markdown: kramdown
 theme: minima
+minima:
+  skin: auto
+  nav_pages:
+    - title: About
+      url: /about/
+    - title: Test
+      url: https://banana.linguly.io/
 plugins:
   - jekyll-feed
 
