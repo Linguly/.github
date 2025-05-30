@@ -1,8 +1,4 @@
----
-layout: page
-title: About Linguly
-permalink: /about/
----
+[Linguly Docs]([#getting-started](https://docs.linguly.io/)){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 # Linguly, Language Learning Platform
 
 Linguly is an **open-source** language learning platform to serve a variety of language learning methods as a core architecture, focusing on transparency and flexibility.
