@@ -1,4 +1,8 @@
-[Linguly Docs]([#getting-started](https://docs.linguly.io/)){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+To get started check Linguly Docs:
+
+<a href="https://docs.linguly.io/"><img src="https://github.com/Linguly/docs/blob/main/assets/images/linguly.png" width="150" title="Linguly Docs" alt="Linguly Docs"/></a>
+
+
 # Linguly, Language Learning Platform
 
 Linguly is an **open-source** language learning platform to serve a variety of language learning methods as a core architecture, focusing on transparency and flexibility.
