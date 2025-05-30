@@ -1,6 +1,0 @@
-title: Linguly Docs
-description: Linguly, an open source language learning platform
-theme: jekyll-theme-minimal
-baseurl: "" # leave empty unless using a subpath
-url: "https://linguly.github.io/.github"
-markdown: kramdown
