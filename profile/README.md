@@ -19,7 +19,7 @@ To tackle the issue thoroughly, this platform should have:
 - Flexible Agents (method's logic)
 - Flexible Language Model Access
 
-These three flexibilities combined with a [Shared Context](https://github.com/Linguly#shared-context) concept will still ensure a continuous learning experience while improving the learning tools and methods over time.
+These three flexibilities combined with a [Shared Context](#shared-context) concept will still ensure a continuous learning experience while improving the learning tools and methods over time.
 
 ### Transparency and control over personal data 
 
@@ -34,23 +34,23 @@ In Linguly, we are trying to address this concern by following:
 
 Based on the three flexibility idea, we have defined the initial architecture as following:
 
-### Architecture Overview
+### Architecture overview
 
 ![Linguly Architecture Overview](./linguly_architecture_overview.svg)
 
 ### Linguly Core
 
 [Linguly Core](https://github.com/Linguly/linguly-core) is the central place to shape the platform.
-It contains the [Agents](https://github.com/Linguly#agents) which are configurable using YAML files.
-Agents' capabilities are limited to the definition of each type which can be extended by the [contributors](https://github.com/Linguly#how-to-contribute).  
+It contains the [Agents](#agents) which are configurable using YAML files.
+Agents' capabilities are limited to the definition of each type which can be extended by the [contributors](#how-to-contribute).  
 
 ### Agents
 
 Agents are our language learning methodology logic. In each Agent we can define:
 
- - which [interfaces](https://github.com/Linguly#interfaces) can be connected
- - which [models](https://github.com/Linguly#models) to be used
- - what data to be stored and what to be read from the [shared context](https://github.com/Linguly#shared-context)
+ - which [interfaces](#interfaces) can be connected
+ - which [models](#models) to be used
+ - what data to be stored and what to be read from the [shared context](#shared-context)
  - how to interact with the user
 
 We can define and extend Agent's type and categories by developing them.
@@ -63,15 +63,15 @@ In this way, we can make them easily configurable and extendable by any user.
 Interfaces are not only the provision of Agents in different devices and entry points, but also making experimenting/experiencing different interaction methodologies possible.
 Not all interfaces will be able to serve all Agents' capabilities and vice versa. But they all should provide these basic functionalities:
 
-- user login
+- user login (it can also be through a link to a central login service)
 - showing the list of available Agents for the interface
-- switch between interfaces
+- switch between agents
 - link to this page to get to know other interfaces and options :)
 
-#### Current Interfaces
+#### Currently available interfaces
 
 - [Telegram Interface](https://github.com/Linguly/telegram-interface)
-   - No [Linguly Live](https://github.com/Linguly#linguly-live) instance yet
+   - [Linguly Live](#linguly-live) instance: (Beta version) [@linguly_live_bot](https://t.me/linguly_live_bot)
 
 ### Models
 
@@ -81,11 +81,11 @@ The 'Model Proxy' will manage the connection and interaction with different mode
 
 ### Shared Context
 
-Shared Context is a set of information shared between Linguly Agents to recognize a user's [language state](https://github.com/Linguly#language-state) and [learning goals](https://github.com/Linguly#learning-goal) in order to adjust the learning experience accordingly.
+Shared Context is a set of information shared between Linguly Agents to recognize a user's [language state](#language-state) and [learning goals](#learning-goal) in order to adjust the learning experience accordingly.
 > The `DB Proxy` pictured in the architecture will be the connector switch to enable us trying different types/instances of Dbs. However, in the initial implementation it will be simplified.
 > **NOTE**: Shared Context is a core concept in Linguly. Using Shared Context we should be able to change Agents and learning logic but still continue our learning journey without interruption.
 
-#### Learning Goal
+#### Learning goal
 
 To begin a learning journey you can define a goal.
 Interfaces should allow you to switch between goals and act accordingly to serve the new goal.
@@ -97,7 +97,7 @@ Each goal may include:
 - Language level
 - Deadline (optional, not supported initially)
 
-#### Language State
+#### Language state
 
 Here we try collecting information to tell agents what is your current level/progress according to your previous interactions with any agent.
 It can include user manual input as well.
@@ -113,7 +113,7 @@ State may include:
 ### Linguly Live
 
 For each interface, we are hosting a free version to be used by the community. These instances has named as Linguly Live.
-If you want to host a private instance to own your data you can follow the instructions in each repo and deploy them.
+If you want to host a private instance to own your data you can follow the instructions in each repo and deploy them (We will later provide a central step by step guide).
 
 ### Linguly Lab
 
@@ -123,24 +123,29 @@ Some of the benefits:
 
 - **Academic Projects**: to modify and compare result of different methods
 - **Admins**: to change and improve learning experiences available in Linguly Live
-- **Learners**: to personalise and modify the Agents based on their needs plus sharing them with others
+- **Learners**: to personalize and modify the Agents based on their needs plus sharing them with others
 
 ## How?
 
-Linguly is an open-source project so it requires passionate people who share the same goal. We want to work together to build a solution that will benefit the society and people to be empowered and learn new languages efficiently.
+Linguly is an open-source project so it requires passionate people who share the same goal.
+We want to work together to build a solution that will benefit the society and people to be empowered and learn new languages efficiently.
 
-There will be a core team of main contributors to plan the project and manage its daily requirements. However, it is open to everyone to [contribute](https://github.com/Linguly#how-to-contribute) and help us grow together.
+We want to shape a core team of main contributors to plan the project and manage its daily requirements.
+Please feel free to [contact](#contact-us) if you are interested to join.
 
-### University Alliances
+In addition, Linguly is open to everyone to [contribute](#how-to-contribute) and help us grow together.
+
+### University alliances
 
 This project has designed in a way to be suitable for variety of academic projects and experiments in language learning area.
-So if you found useful for your project, feel free to [contact](https://github.com/Linguly#contact-us). We will be super happy to support and collaborate.
+So if you found it useful for your project, feel free to [contact](#contact-us).
+We will be super happy to support and collaborate.
 
 ### How to contribute?
 
 If you wish for a feature or change, have same passion and want to help, or just want to learn and try something, feel free to:
 
-- [contact us](https://github.com/Linguly#contact-us)
+- [contact us](#contact-us)
 - create a new issue
 - pick an issue and start working on it
 
