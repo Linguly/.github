@@ -82,7 +82,7 @@ The 'Model Proxy' will manage the connection and interaction with different mode
 ### Shared Context
 
 Shared Context is a set of information shared between Linguly Agents to recognize a user's [language state](#language-state) and [learning goals](#learning-goal) in order to adjust the learning experience accordingly.
-> The `DB Proxy` pictured in the architecture will be the connector switch to enable us trying different types/instances of Dbs. However, in the initial implementation it will be simplified.
+> The `DB Proxy` pictured in the architecture will be the connector switch to enable us trying different types/instances of Dbs.
 > **NOTE**: Shared Context is a core concept in Linguly. Using Shared Context we should be able to change Agents and learning logic but still continue our learning journey without interruption.
 
 #### Learning goal
