@@ -11,8 +11,10 @@ It is providing the ground to easily switch between different methods and use th
 
 With the rapid improvement in language models and AI, a lot of language learning possibilities have been unlocked.
 We believe that the way we were traditionally learning language has been changed, and new methods can be improved in different ways.
+
 Still finding an optimum tool to be the best language learning companion is not easy, and it might be different for each individual.
 Therefore, a flexible platform to configure and try different methods can help us easily develop and experiment with new methods.
+
 To tackle the issue thoroughly, this platform should have:
 
 - flexible Interfaces (interaction methodology)
@@ -76,6 +78,7 @@ Agents are our language learning methodology logic. In each Agent we can define:
 We can define and extend Agent's type and categories by developing them.
 However, each Agent is an instance of those types which has been configured using the YAML files.
 In this way, we can make them easily configurable and extendable by any user.
+
 > **NOTE**: Initially we need a PR and redeployment for each new YAML file but later when we introduce the `Linguly Lab`, those can be configured via a separate interface.
 
 ### Interfaces
@@ -102,7 +105,9 @@ The 'Model Proxy' will manage the connection and interaction with different mode
 ### Shared Context
 
 Shared Context is a set of information shared between Linguly Agents to recognize a user's [language state](#language-state) and [learning goals](#learning-goal) in order to adjust the learning experience accordingly.
+
 > The `DB Proxy` pictured in the architecture will be the connector switch to enable us trying different types/instances of Dbs.
+
 > **NOTE**: Shared Context is a core concept in Linguly. Using Shared Context we should be able to change Agents and learning logic but still continue our learning journey without interruption.
 
 #### Learning goal
