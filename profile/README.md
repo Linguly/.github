@@ -36,7 +36,7 @@ Based on the three flexibility idea, we have defined the initial architecture as
 
 ### Architecture Overview
 
-![Linguly Architecture Overview](../linguly_architecture_overview.svg)
+![Linguly Architecture Overview](./linguly_architecture_overview.svg)
 
 ### Linguly Core
 
