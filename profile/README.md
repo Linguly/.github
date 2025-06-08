@@ -42,7 +42,7 @@ At Linguly, our aim is to help the learners to improve their language skills by 
 To achieve this:
 1. It needs to understands the learner's current [language state](#language-state) (A) through tests and initial interactions.
 1. The learner’s target or goal state (B) is going to identified by allowing them to set their [learning goal](#learning-goal).
-1. [Agents](#agents) are meant to design and provide various paths and guidances helping the learner progress from A to B
+1. [Agents](#agents) are meant to design and provide various paths and guidances helping the learner progress from A to B while the progress is tracked via the [Shared Context](#shared-context).
 
 Our ongoing mission at Linguly is to continuously improve the platform’s ability to accurately assess, define, and guide learners through these three critical stages.
 
@@ -131,7 +131,7 @@ State may include:
 
 - current language level (manual input)
 - language proficiency test result (from test Agents)
-- words/statements state
+- learning phrases state
 - grammar state (optional)
 - language mental model (in a knowledge graph or neural network): ultimate goal (advanced)
 
