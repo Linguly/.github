@@ -1,8 +1,3 @@
-To get started check Linguly Docs:
-
-<a href="https://docs.linguly.io/"><img src="https://github.com/Linguly/docs/blob/main/assets/images/linguly.png" width="150" title="Linguly Docs" alt="Linguly Docs"/></a>
-
-
 # Linguly, Language Learning Platform
 
 Linguly is an **open-source** language learning platform to serve a variety of language learning methods as a core architecture, focusing on transparency and flexibility.
@@ -16,13 +11,15 @@ It is providing the ground to easily switch between different methods and use th
 
 With the rapid improvement in language models and AI, a lot of language learning possibilities have been unlocked.
 We believe that the way we were traditionally learning language has been changed, and new methods can be improved in different ways.
+
 Still finding an optimum tool to be the best language learning companion is not easy, and it might be different for each individual.
 Therefore, a flexible platform to configure and try different methods can help us easily develop and experiment with new methods.
+
 To tackle the issue thoroughly, this platform should have:
 
-- Flexible Interfaces (Interaction methodology)
-- Flexible Agents (method's logic)
-- Flexible Language Model Access
+- flexible Interfaces (interaction methodology)
+- flexible Agents (method's logic/learning tools)
+- flexible Language Model access
 
 These three flexibilities combined with a [Shared Context](#shared-context) concept will still ensure a continuous learning experience while improving the learning tools and methods over time.
 
@@ -34,6 +31,26 @@ In Linguly, we are trying to address this concern by following:
 - Linguly is open source, and it brings transparency to how we process and store data.
 - We are documenting and supporting self-hosting Linguly, fully or partially, so you can easily host and manage your data.
 - From the beginning, we are planning to provide easy ways of extracting your data and moving to any other self-hosted instance and continue your learning journey wherever you want.
+
+### Linguly's language learning concept
+
+Linguly aims to provide a flexible platform that allows for experimenting with different learning methodologies. However, it still adheres to the following core principles:
+
+### 1. Goal-based learning
+
+At Linguly, our aim is to help the learners to improve their language skills by progressing an initial state A to a desired state B.
+To achieve this:
+1. It needs to understands the learner's current [language state](#language-state) (A) through tests and initial interactions.
+1. The learner’s target or goal state (B) is going to identified by allowing them to set their [learning goal](#learning-goal).
+1. [Agents](#agents) are meant to design and provide various paths and guidances helping the learner progress from A to B while the progress is tracked via the [Shared Context](#shared-context).
+
+Our ongoing mission at Linguly is to continuously improve the platform’s ability to accurately assess, define, and guide learners through these three critical stages.
+
+### 2. Language immersion 
+
+[Research](https://archive.carla.umn.edu/immersion/documents/ImmersionResearch_TaraFortune.html) suggests that language immersion is one of the most effective methods for learning a new language.
+
+Linguly leverages this by incorporating immersive experiences in most of its agents and tools. This approach enables learners to acquire a new language naturally, often without relying on their native language as a reference point.
 
 ## What?
 
@@ -61,7 +78,16 @@ Agents are our language learning methodology logic. In each Agent we can define:
 We can define and extend Agent's type and categories by developing them.
 However, each Agent is an instance of those types which has been configured using the YAML files.
 In this way, we can make them easily configurable and extendable by any user.
+
 > **NOTE**: Initially we need a PR and redeployment for each new YAML file but later when we introduce the `Linguly Lab`, those can be configured via a separate interface.
+
+#### Agent categories
+
+Agents are beyond learning tools.
+There are so far three Agent categories each with few subcategories: 
+- learning: tools to provide learning material, logic, etc.
+- utility: tools to provide services e.g. adding to learning phrases, monitoring the progress, etc.
+- test: tools to test the user knowledge to adjust the [language state](#language-state).
 
 ### Interfaces
 
@@ -87,7 +113,9 @@ The 'Model Proxy' will manage the connection and interaction with different mode
 ### Shared Context
 
 Shared Context is a set of information shared between Linguly Agents to recognize a user's [language state](#language-state) and [learning goals](#learning-goal) in order to adjust the learning experience accordingly.
+
 > The `DB Proxy` pictured in the architecture will be the connector switch to enable us trying different types/instances of Dbs.
+
 > **NOTE**: Shared Context is a core concept in Linguly. Using Shared Context we should be able to change Agents and learning logic but still continue our learning journey without interruption.
 
 #### Learning goal
@@ -109,11 +137,11 @@ It can include user manual input as well.
 
 State may include:
 
-- Current Language Level (manual input)
-- Language Proficiency test result (from test Agents)
-- Words/Statements state
-- Grammar state (optional)
-- Language mental model (in a knowledge graph or neural network): ultimate goal (advanced)
+- current language level (manual input)
+- language proficiency test result (from test Agents)
+- learning phrases state
+- grammar state (optional)
+- language mental model (in a knowledge graph or neural network): ultimate goal (advanced)
 
 ### Linguly Live
 
@@ -162,7 +190,7 @@ So if you want to support us now:
 - talk about this project with your friends and colleagues
 - use it and give us feedback
 - share your experience in social media
-- contribute in the development!
+- contribute in the development
 
 ## Contact Us
 
