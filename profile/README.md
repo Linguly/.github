@@ -81,6 +81,14 @@ In this way, we can make them easily configurable and extendable by any user.
 
 > **NOTE**: Initially we need a PR and redeployment for each new YAML file but later when we introduce the `Linguly Lab`, those can be configured via a separate interface.
 
+#### Agent categories
+
+Agents are beyond learning tools.
+There are so far three Agent categories each with few subcategories: 
+- learning: tools to provide learning material, logic, etc.
+- utility: tools to provide services e.g. adding to learning phrases, monitoring the progress, etc.
+- test: tools to test the user knowledge to adjust the [language state](#language-state).
+
 ### Interfaces
 
 Interfaces are not only the provision of Agents in different devices and entry points, but also making experimenting/experiencing different interaction methodologies possible.
